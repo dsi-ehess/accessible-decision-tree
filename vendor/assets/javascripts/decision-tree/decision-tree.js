@@ -12,7 +12,7 @@
 
             data_folder: '', // folder to locate JSON files, default is the same folder as the HTML page
             node_prefix: 'dtn', // prefix for question nodes
-            json_ext: 'json', // file extension for JSON requests
+            json_ext: '', // file extension for JSON requests
             cache_json: true, // cache JSON responses
             animation_speed: 200, // speed of transitions and effects
             question_extra_text: true, // show additional copy on node questions
