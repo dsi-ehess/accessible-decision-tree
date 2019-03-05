@@ -1,12 +1,16 @@
-module Accessible::Decision::Tree
+module Accessible
+  module Decision
+    module Tree
 
-  class Configuration
-    # see http://lizabinante.com/blog/creating-a-configurable-ruby-gem/
+      class Configuration
+        # see http://lizabinante.com/blog/creating-a-configurable-ruby-gem/
 
-    attr_accessor :trees_directory
+        attr_accessor :trees_directory
 
-    def initialize
-      @trees_directory = nil
+        def initialize
+          @trees_directory = nil
+        end
+      end
     end
   end
 end
