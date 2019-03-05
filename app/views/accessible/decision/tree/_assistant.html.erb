@@ -1,0 +1,7 @@
+<div class="decision-tree" aria-live="polite" aria-relevant="additions" data-loading-text="<%= t('.loading_text') %>">
+  <p class="cta">
+    <%= option_path = accessible_decision_tree.tree_option_path(tree_id: config, id: node, :format => :json)
+        option_accessible_path = accessible_decision_tree.tree_option_path(tree_id: config, id: node, :format => :html)
+        link_to start_text, option_accessible_path, data: {'start-node': option_path}, html: {role: "button"}, target: "_blank" %>
+  </p>
+</div>

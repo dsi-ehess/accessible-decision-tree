@@ -1,0 +1,8 @@
+<div>
+  <p><%= @option["question"] %></p>
+  <ul>
+    <% (@option["answers"] || []).each do |answer|%>
+      <li><%= link_to answer["text"], answer["target"] %></li>
+    <% end %>
+  </ul>
+</div>

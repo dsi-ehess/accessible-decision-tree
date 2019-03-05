@@ -1,0 +1,9 @@
+fr:
+  accessible:
+    decision:
+      tree:
+        assistant:
+          loading_text: "Chargement en cours"
+        options:
+          show:
+            not_yet_redacted: "La suite n'a pas encore été rédigée..."
